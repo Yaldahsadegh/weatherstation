@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Station with EJS</title>
+    <style>
+      /* Paste the CSS code here */
+      /* Alternatively, you can link to an external CSS file */
+    </style>
+  </head>
+  <body>
+    <h1>Weather Station</h1>
+    <div>
+      <h2>Current Temperature: <span><%= temperature %> °C</span></h2>
+      <h2>Current Humidity: <span><%= humidity %> %</span></h2>
+      <h2>
+        Running Average Temperature:
+        <span><%= runningAverage.temperature %> °C</span>
+      </h2>
+      <h2>
+        Running Average Humidity: <span><%= runningAverage.humidity %> %</span>
+      </h2>
+    </div>
+  </body>
+</html>

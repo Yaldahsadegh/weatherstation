@@ -1,0 +1,33 @@
+/* Style for the body element */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the h1 element */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+/* Style for the div containing weather information */
+div {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Style for the h2 elements */
+h2 {
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Style for the temperature and humidity values */
+span {
+  font-weight: bold;
+  color: #333;
+}
